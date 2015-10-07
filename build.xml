@@ -82,6 +82,7 @@
     <property name="manifest.file" value="${deploy.dir}/_manifest" />
     <copy file="manifest.mf" tofile="${manifest.file}" />
     <manifest file="${manifest.file}" mode="update">
+      <attribute name="Built-By" value="${user.name}"/>
       <attribute name="Build-Date" value="${deploy.timestamp}"/>
     </manifest>
     <property name="dist.dir" value="dist" />
