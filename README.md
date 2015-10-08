@@ -8,7 +8,11 @@ It can be used to view the transformational process interactively in 3D.
 
 ### Technology
 Java 7 / Swing / Ant / NetBeans 8.  
-No third party library is needed.
+No external third party library is needed for compiling and/or running.
+
+#### Integrated third party codes
+- [Matrix.java](http://mrl.nyu.edu/~perlin/render/Matrix.java) by [Ken Perlin](http://mrl.nyu.edu/~perlin/);
+- ChangeSupport.java by Andrei Badea.
 
 ### Note
 The source comments are in Hungarian language.  
